@@ -1,0 +1,24 @@
+/* 4-style.css */
+
+/* Define custom properties for font families */
+:root {
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font-family */
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font-family */
+}
+
+/* Set the body’s font-family to font-family-base */
+body {
+    font-family: var(--font-family-base); /* Use the base font-family variable */
+}
+
+/* Set the font-family for all section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Use the title font-family variable */
+}
+
+/* Existing declarations for links (if any) */
+a {
+    color: var(--text-color); /* Use the text-color variable from previous styles */
+}
+
+/* Other existing styles from 3-style.css remain the same */
