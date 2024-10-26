@@ -8,17 +8,10 @@
 
 /* Set the body’s font-family to font-family-base */
 body {
-    font-family: var(--font-family-base); /* Use the base font-family variable */
+    font-family: var(--font-family-base); /* Apply base font-family */
 }
 
 /* Set the font-family for all section headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title); /* Use the title font-family variable */
+    font-family: var(--font-family-title); /* Apply title font-family */
 }
-
-/* Existing declarations for links (if any) */
-a {
-    color: var(--text-color); /* Use the text-color variable from previous styles */
-}
-
-/* Other existing styles from 3-style.css remain the same */
