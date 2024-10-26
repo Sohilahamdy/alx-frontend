@@ -105,7 +105,7 @@ body {
     color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link:before {
+.nav .nav-link::before {
     content: "";
     position: absolute;
     bottom: 0;
