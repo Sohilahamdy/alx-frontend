@@ -97,6 +97,15 @@ body {
 }
 
 .nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
+}
+
+.nav .nav-link:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -104,14 +113,11 @@ body {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    display: block;
-    padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
-    color: var(--nav-item-link-hover);
 }
 
 .header {
