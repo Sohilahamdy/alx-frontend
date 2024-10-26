@@ -226,7 +226,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img{
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -237,8 +237,8 @@ a:active {
     position: absolute;
     top: -0.1rem;
     left: -0.1rem;
-    right: -0.1rem
-    z-order: 1
+    right: -0.1rem;
+    z-order: 1;
 }
 
 .card-work:hover .card-inner {
