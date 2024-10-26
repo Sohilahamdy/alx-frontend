@@ -1,0 +1,34 @@
+/* 3-style.css */
+
+/* Define custom properties (CSS variables) */
+:root {
+    --color-primary: #d73953; /* Primary color */
+    --color-black: #090909;    /* Black color */
+    --color-white: #ffffff;    /* White color */
+    --color-light-grey: #f3f3f3; /* Light grey color */
+    --color-dark-grey: #353535;  /* Dark grey color */
+    --text-color: var(--color-black); /* Set text color to black */
+}
+
+/* Set the body and anchor colors to text-color */
+body {
+    color: var(--text-color); /* Use the text-color variable */
+}
+
+a {
+    color: var(--text-color); /* Use the text-color variable */
+}
+
+/* Set the colors for card-category and section-tagline */
+.card-category {
+    color: var(--color-primary); /* Use the primary color variable */
+}
+
+.section-tagline {
+    color: var(--color-primary); /* Use the primary color variable */
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden {
+    display: none; /* Set display to none */
+}
