@@ -20,7 +20,7 @@
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: color-black;
+    --section-title-color: var(--color-black);;
 }
 
 html {
@@ -63,7 +63,7 @@ a {
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    color: var(--color-black);
+    color: var(--section-title-color);
 }
 
 .section-tagline {
