@@ -211,12 +211,12 @@ a:active {
 }
 
 .section-hero {
-    background-size: 2-value syntax;
+    background-size: width height;
     width: 90rem;
 }
 
 .section-hero .section-title {
-    margin-botttom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .section-hero .section-inner {
