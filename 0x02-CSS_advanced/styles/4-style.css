@@ -1,17 +1,17 @@
-/* 4-style.css */
+/* styles/4-style.css */
 
-/* Define custom properties for font families */
+/* Target the root element and define custom properties for font families */
 :root {
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Base font-family */
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Title font-family */
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif; /* First choice: Helvetica Neue */
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif; /* First choice: Helvetica Neue */
 }
 
-/* Set the body’s font-family to font-family-base */
+/* Set the body's font-family to font-family-base */
 body {
-    font-family: var(--font-family-base); /* Apply base font-family */
+    font-family: var(--font-family-base); /* Apply the base font-family */
 }
 
-/* Set the font-family for all section headings */
+/* Set the font-family for all section headings (h1 to h6) */
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title); /* Apply title font-family */
+    font-family: var(--font-family-title); /* Apply the title font-family */
 }
